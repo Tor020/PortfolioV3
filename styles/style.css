@@ -55,6 +55,7 @@ body {
 }
 
 #landing {
+  z-index:1;
   color: #ffffff;
   padding-top: 0;
   padding-bottom: 0;
@@ -107,59 +108,77 @@ https://res.cloudinary.com/tor020/image/upload/v1503265442/Wordpress/Watermtn-e1
   
 }  
 
-.foo{
+/* .foo{
   transition: all 2s ease-out;
 
  
-}
-/* Fade Animations */
-
-.nav-item-one {
-  animation-delay: .2s;
-}
-
-.nav-item-two {
-  animation-delay: 0.4s;
-}
-
-.nav-item-three {
-  animation-delay: 0.7s;
-}
-
-.animated {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
+} */
 
 
-/* Keyframes  */
 
-@keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    transform: translate3d(-100%, 0, 0);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
+  /* Nav Fade Animations */
 
-.fadeInLeft {
-  animation-name: fadeInLeft;
-}
+    .nav-item-one, .landing-one{
+      animation-delay: .2s;
+    }
 
-@keyframes fadeInRight {
-  from {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
+    .nav-item-two, .landing-two {
+      animation-delay: 0.4s;
+    }
 
-.fadeInRight {
-  animation-name: fadeInRight;
-}
+    .nav-item-three, .landing-three {
+      animation-delay: 0.7s;
+    }
+
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+
+
+    /* Keyframes  */
+
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+      }
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+      }
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+    .fadeInRight {
+      animation-name: fadeInRight;
+    }
+
+    @media screen and (max-width: 577px) {
+      .hero-body,
+      .section {
+        padding: 0
+      }
+      .backdrop { 
+        box-shadow: none;
+        background-color:transparent;
+        padding-bottom: 0em;
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-top: 0em;
+      }
+    }
