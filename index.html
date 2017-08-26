@@ -8,6 +8,7 @@
   <link rel="icon" href="assets/webico.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" id = 'theme' href="https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.5.0/sandstone/bulmaswatch.min.css">
+  <script type="text/javascript" src="http://livejs.com/live.js"></script>  
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -16,24 +17,35 @@
   <nav class="nav">
     <div class="container">
       <div class="nav-left">
-        <a href = '#landing' class="nav-item is-tab">Home</a>
-        <a href = '#about' class="nav-item is-tab">About</a>
-        <a href = '#portfolio' class="nav-item is-tab">Portfolio</a>
+        <a href = '#landing' class="nav-item nav-item-one is-tab animated fadeInLeft">Home</a>
+        <a href = '#about' class="nav-item nav-item-two is-tab animated fadeInLeft">About</a>
+        <a href = '#portfolio' class="nav-item nav-item-three is-tab animated fadeInLeft">Portfolio</a>
       </div>
       <div class="nav-right nav-menu">
-        <a href = 'https://dansup.github.io/bulma-templates/' class="nav-item is-tab">Bulma Templates</a>
-        <a href = 'https://jenil.github.io/bulmaswatch/lux/' class="nav-item is-tab">Bulma Swatch</a>
         <a href = 'http://bulma.io/documentation/layout/container/' class="nav-item is-tab">Bulma Docs</a>
       </div>
     </div>
   </nav>
 
-
+<!-- Landing Start -->
 <div class="section nav-section" id = "landing">
-  <h1 class="is-1">
-    Landing
-  </h1>
+  <section class="hero is-fullheight">
+    <div class="hero-body">
+      <div class="container has-text-centered" id='landing-txt-container'>
+          <h1 class="title is-2">
+              <span class='backdrop'>Front-End Web Developer</span>
+            </h1>
+        <h1 class="title is-1">
+              Kevin Coyle
+        </h1>
+        <h2 class="subtitle is-3" id = 'landing-Fade-Container'>
+          <span class = 'foo' id ='landing-Fade-Container-Child'>I can</>
+        </h2>
+      </div>
+    </div>
+  </section>
 </div>
+<!-- Landing End -->
 
   <div class="section" id = "about">
 
@@ -448,7 +460,8 @@ About
 </div> 
 <!-- Portfolio end -->
 
-<script src = 'scripts/main.js'></script>
+<script src = 'scripts/concatscripts.js'></script>
+<!-- <script src = 'scripts/main.js'></script> -->
 <script src = 'scripts/zenscroll-min.js'></script>
 </body>
 </html>

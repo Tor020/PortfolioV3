@@ -1,58 +1,165 @@
-body{font-size:16px;
+body {
+  font-size: 16px;
   /* background-color:#CCCCCC; */
 }
-.navbar-brand>.navbar-link.is-active, .navbar-brand>.navbar-link:hover, .navbar-brand>a.navbar-item.is-active, .navbar-brand>a.navbar-item:hover {
-  background-color: inherit;
+
+.title,
+.subtitle {
   color: inherit;
 }
-.nav { position: fixed; top: 0; left: 0; right: 0; border-radius:0; box-shadow:0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);}
+
+.navbar-brand>.navbar-link.is-active,
+.navbar-brand>.navbar-link:hover,
+.navbar-brand>a.navbar-item.is-active,
+.navbar-brand>a.navbar-item:hover,
+.nav-item.is-tab:hover,
+.nav-item a:not(.button).is-tab:hover, a.nav-item:not(.button).is-tab:hover {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0;
+  box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
 .nav-section
 /* TO create space for fixed nav */
+
 {
-  margin-top:45.5px;
-}  
-.section-cards{
+  margin-top: 45.5px;
+}
+
+.section-cards {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
-.card{
-  box-shadow:0px 4px 6px rgba(0,0,0,0.19), 0px 4px 6px rgba(0,0,0,0.30);
-  border-radius:2px;
-  transition:.5s all;
-}
-.card:hover{
-  box-shadow:0px 8px 6px rgba(0,0,0,0.25), 2px 8px 6px rgba(0,0,0,0.35);
-}
-.nav-wrapper{
-height:5rem;
+
+.card {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.19), 0px 4px 6px rgba(0, 0, 0, 0.30);
+  border-radius: 2px;
+  transition: .5s all;
 }
 
-#landing{
-background-color:#ffffff;
-padding-top:0;
-padding-bottom:0;
-height:100vh;
-background-image:url(https://res.cloudinary.com/tor020/image/upload/v1503265015/Wordpress/network-2402637_uwrcna.jpg
-);
-background-size:cover;
+.card:hover {
+  box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.25), 2px 8px 6px rgba(0, 0, 0, 0.35);
 }
+
+.nav-wrapper {
+  height: 5rem;
+}
+
+#landing {
+  color: #ffffff;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 100vh;
+  background-image: url(https://res.cloudinary.com/tor020/image/upload/v1503265015/Wordpress/network-2402637_uwrcna.jpg
+);
+  background-size: cover;
+}
+
+#landing-txt-container {
+  color: #ffffff;
+}
+
+
 /* Alternative IMage covers
 https://res.cloudinary.com/tor020/image/upload/v1503265442/Wordpress/Watermtn-e1502912326928_fygmq4.jpg
   https://res.cloudinary.com/tor020/image/upload/v1503265446/Wordpress/sebastien-marchand-9747-e1502913335938_msz7qk.jpg
 
   */
 
-
-#about{
-  background-color:#ffffff;
-  height:100vh;
+#about {
+  background-color: #ffffff;
+  height: 100vh;
   /* margin:0 2em 0 2em;
   box-shadow:-3px 0px 0px rgba(0,0,0,0.35) */
-  
 }
-#portfolio{
+
+#portfolio {
   /* background-color:#ffffff;
   margin:0 2em 0 2em;
   box-shadow:-3px 0px 0px rgba(0,0,0,0.35) */
+}
+
+
+.backdrop {
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 4em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  box-shadow: 2px 10px 20px 3px rgba(255, 255, 255, 0.2);
+}
+
+#landing-fade-container {
+
+}
+
+#landing-fade-container-child {
   
+}  
+
+.foo{
+  transition: all 2s ease-out;
+
+ 
+}
+/* Fade Animations */
+
+.nav-item-one {
+  animation-delay: .2s;
+}
+
+.nav-item-two {
+  animation-delay: 0.4s;
+}
+
+.nav-item-three {
+  animation-delay: 0.7s;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+
+/* Keyframes  */
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
 }
