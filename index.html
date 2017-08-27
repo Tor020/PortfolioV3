@@ -20,7 +20,9 @@
       <div class="nav-left">
         <a href = '#landing' class="nav-item nav-item-one is-tab animated fadeInLeft">Home</a>
         <a href = '#about' class="nav-item nav-item-two is-tab animated fadeInLeft">About</a>
+        <a href = '#technicalSkills' class="nav-item nav-item-three is-tab animated fadeInLeft">Technical Skills</a>
         <a href = '#portfolio' class="nav-item nav-item-three is-tab animated fadeInLeft">Portfolio</a>
+
       </div>
       <div class="nav-right nav-menu">
         <a href = 'http://bulma.io/documentation/layout/container/' class="nav-item is-tab">Bulma Docs</a>
@@ -41,11 +43,11 @@
         </h1>
         <h2 class="subtitle is-3 animated fadeInLeft landing-three" id = 'landing-Fade-Container'>
          <span>I can</span>
-          <span class = 'foo1'><a href = '#portfolio'>Create New Wordpress Websites</a></span>
-          <span class = 'foo2'><a href = '#portfolio'>Build Responsive Landing Pages</a></span>
-          <span class = 'foo3'><a href = '#portfolio'>Use The Latest Javascript and CSS Frameworks</a></span>
-          <span class = 'foo4'><a href = '#portfolio'>Contribute to Your Dev Team</a></span>
-          <span class = 'foo5'><a href = '#portfolio'>Perform Website Migrations</a></span>
+          <span class = 'foo1'><a class='fooLink' href = '#technicalSkills'>Create New Wordpress Websites</a></span>
+          <span class = 'foo2'><a class='fooLink' href = '#technicalSkills'>Build Responsive Landing Pages</a></span>
+          <span class = 'foo3'><a class='fooLink' href = '#technicalSkills'>Use The Latest Javascript and CSS Frameworks</a></span>
+          <span class = 'foo4'><a class='fooLink' href = '#technicalSkills'>Contribute to Your Dev Team</a></span>
+          <span class = 'foo5'><a class='fooLink' href = '#technicalSkills'>Perform Website Migrations</a></span>
         </h2>
       </div>
     </div>
@@ -61,112 +63,91 @@
 
     <div class="section" id = "about">
 
-      <h1 class="is-1">
-  About
-      </h1>
+
+      <div class="container">
+
+        
+      <article class="message">
+          <h1 class="has-text-centered about-h1"> About </h1>
+        <div class="text-content">
+          At time of writing in 2017, I'm a 26 year old self taught Web Developer whose been using the Internet since the late 90s. I've always thought the Internet was pretty awesome, but I especially like the practical application it brings to everyone.
+        </div>
+        <div class="text-content">
+          The first web application I made and put on github for use is called the KF2calc which was made to help players to calculate their damage in an online video game. Damage calculations weren't displayed anywhere in-game or online and you'd have to look up formulas on the Internet and plug them into a calculator for each weapon. After doing it myself a few times I thought that it'd be pretty useful to have an application that did this for me. So I went to building the website.
+        </div>
+        <div class="text-content">
+          I launched the website last year and have implemented additional features after communicating with the userbase on social media. Since then, I've monetized the website with Ad Sense and have daily usage confirmed by Google Analytics. I have also launched my own <a href="http://kcwebdevoh.online/">Wordpress</a> website in order to pursue freelance opportunities.
+          <!-- Throughout this project's lifetime I've tried to practice Agile and Waterfall software development methodologies. -->
+        </div>
+        <div class="text-content">
+          I'm really dedicated to mastering Javascript and working to be able to utilize it to its full potential. After I have mastered Front-End Technologies, I want to branch out into Back-End languages like Python and PHP and work towards Full-Stack. Eventually, I'd like to use this knowledge in entrepreneurial endeavors.
+        </div>
+      
+      <h1 class="has-text-centered about-h1" id='technicalSkills'> Technical Skills </h1>
+        <div class="columns">
+          <div class="column has-text-centered">
+            <h3 class = 'about-h3'>Primary Technology Skills</h3>
+            <div class="text-content">
+                Primary Technology Skills represent the areas where I have the majority of my experience. 
+            </div>
+            <strong>HTML5 - CSS3 - Javascript - JQuery - Bootstrap - React - Gulp </strong>
+          </div>
+          <div class="column has-text-centered">
+            <h3 class = 'about-h3'>Secondary Technology Skills</h3>
+            <div class="text-content">
+                Secondary Technology Skills are areas where I have general usage experience but with minimal depth.
+            </div>
+            <strong>PHP - Wordpress - MySQL - PhpMyAdmin - Command Line - Ubuntu  - Photoshop</strong>
+          </div>
+        </div>
+        <div class="text-content italic">
+          * Skills not arranged in a particular order.
+        </div>
+
+
+    </article>
+    </div>
+
     </div>
 
     <div class="section" id = "portfolio">
   <!-- 4 col Card Section Start -->
-  <div class="section section-cards nav-section">
-      <div class="container">      
-        <div class="columns">
-          <!-- column 1 start -->
-          <div class="column is-3">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                  </div>
-                  <!-- heading -->
-                  <div class="media-content">
-                    <p class="title is-4">Project Name</p>
-                    <p class="subtitle is-6"><a>#javascript</a>
-                      <a>#css</a> <a>#responsive</a></p>
-                  </div>
-                  <!-- end heading -->
+    <div class="section section-cards nav-section">
+        <div class="container">      
+          <div class="columns">
+            <!-- column 1 start -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
+                  </figure>
                 </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. 
-                  <br>
-                  <small>Date - Time</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- column 1 end -->
-          <!-- column 2 start -->
-          <div class="column is-3">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                    </div>
+                    <!-- heading -->
+                    <div class="media-content">
+                      <p class="title is-4">Project Name</p>
+                      <p class="subtitle is-6"><a>#javascript</a>
+                        <a>#css</a> <a>#responsive</a></p>
+                    </div>
+                    <!-- end heading -->
                   </div>
-                  <!-- heading -->
-                  <div class="media-content">
-                    <p class="title is-4">Project Name</p>
-                    <p class="subtitle is-6"><a>#javascript</a>
-                      <a>#css</a> <a>#responsive</a></p>
+              
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. 
+                    <br>
+                    <small>Date - Time</small>
                   </div>
-                  <!-- end heading -->
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. 
-                  <br>
-                  <small>Date - Time</small>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- column 2 end -->
-          <!-- column 3 start -->
-          <div class="column is-3">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                  </div>
-                  <!-- heading -->
-                  <div class="media-content">
-                    <p class="title is-4">Project Name</p>
-                    <p class="subtitle is-6"><a>#javascript</a>
-                      <a>#css</a> <a>#responsive</a></p>
-                    
-                  </div>
-                  <!-- end heading -->
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. 
-                  <br>
-                  <small>Date - Time</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Column 3 -->
-          <!-- column 4 start -->
-          <div class="column is-3">
+            <!-- column 1 end -->
+            <!-- column 2 start -->
+            <div class="column is-3">
               <div class="card">
                 <div class="card-image">
                   <figure class="image is-4by3">
@@ -195,112 +176,81 @@
                 </div>
               </div>
             </div>
-            <!-- column 4 end -->
+            <!-- column 2 end -->
+            <!-- column 3 start -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                    </div>
+                    <!-- heading -->
+                    <div class="media-content">
+                      <p class="title is-4">Project Name</p>
+                      <p class="subtitle is-6"><a>#javascript</a>
+                        <a>#css</a> <a>#responsive</a></p>
+                      
+                    </div>
+                    <!-- end heading -->
+                  </div>
+              
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. 
+                    <br>
+                    <small>Date - Time</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Column 3 -->
+            <!-- column 4 start -->
+            <div class="column is-3">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-left">
+                      </div>
+                      <!-- heading -->
+                      <div class="media-content">
+                        <p class="title is-4">Project Name</p>
+                        <p class="subtitle is-6"><a>#javascript</a>
+                          <a>#css</a> <a>#responsive</a></p>
+                      </div>
+                      <!-- end heading -->
+                    </div>
+                
+                    <div class="content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris. 
+                      <br>
+                      <small>Date - Time</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- column 4 end -->
+          </div>
         </div>
-      </div>
-  </div>
-  <!-- 4 col Section End -->
+    </div>
+    <!-- 4 col Section End -->
 
-  <!-- 4 col Section Start -->
-  <div class="section section-cards">
-      <div class="container">      
-        <div class="columns">
-          <!-- column 1 start -->
-          <div class="column is-3">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                  </div>
-                  <!-- heading -->
-                  <div class="media-content">
-                    <p class="title is-4">Project Name</p>
-                    <p class="subtitle is-6"><a>#javascript</a>
-                      <a>#css</a> <a>#responsive</a></p>
-                  </div>
-                  <!-- end heading -->
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. 
-                  <br>
-                  <small>Date - Time</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- column 1 end -->
-          <!-- column 2 start -->
-          <div class="column is-3">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                  </div>
-                  <!-- heading -->
-                  <div class="media-content">
-                    <p class="title is-4">Project Name</p>
-                    <p class="subtitle is-6"><a>#javascript</a>
-                      <a>#css</a> <a>#responsive</a></p>
-                  </div>
-                  <!-- end heading -->
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. 
-                  <br>
-                  <small>Date - Time</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- column 2 end -->
-          <!-- column 3 start -->
-          <div class="column is-3">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                  </div>
-                  <!-- heading -->
-                  <div class="media-content">
-                    <p class="title is-4">Project Name</p>
-                    <p class="subtitle is-6"><a>#javascript</a>
-                      <a>#css</a> <a>#responsive</a></p>
-                    
-                  </div>
-                  <!-- end heading -->
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. 
-                  <br>
-                  <small>Date - Time</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Column 3 -->
-          <!-- column 4 start -->
-          <div class="column is-3">
+    <!-- 4 col Section Start -->
+    <div class="section section-cards">
+        <div class="container">      
+          <div class="columns">
+            <!-- column 1 start -->
+            <div class="column is-3">
               <div class="card">
                 <div class="card-image">
                   <figure class="image is-4by3">
@@ -329,112 +279,9 @@
                 </div>
               </div>
             </div>
-            <!-- column 4 end -->
-        </div>
-      </div>
-  </div>
-  <!-- 4 col Section End -->
-
-  <!-- 4 col Section Start -->
-  <div class="section section-cards">
-      <div class="container">      
-        <div class="columns">
-          <!-- column 1 start -->
-          <div class="column is-3">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                  </div>
-                  <!-- heading -->
-                  <div class="media-content">
-                    <p class="title is-4">Project Name</p>
-                    <p class="subtitle is-6"><a>#javascript</a>
-                      <a>#css</a> <a>#responsive</a></p>
-                  </div>
-                  <!-- end heading -->
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. 
-                  <br>
-                  <small>Date - Time</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- column 1 end -->
-          <!-- column 2 start -->
-          <div class="column is-3">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                  </div>
-                  <!-- heading -->
-                  <div class="media-content">
-                    <p class="title is-4">Project Name</p>
-                    <p class="subtitle is-6"><a>#javascript</a>
-                      <a>#css</a> <a>#responsive</a></p>
-                  </div>
-                  <!-- end heading -->
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. 
-                  <br>
-                  <small>Date - Time</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- column 2 end -->
-          <!-- column 3 start -->
-          <div class="column is-3">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                  </div>
-                  <!-- heading -->
-                  <div class="media-content">
-                    <p class="title is-4">Project Name</p>
-                    <p class="subtitle is-6"><a>#javascript</a>
-                      <a>#css</a> <a>#responsive</a></p>
-                    
-                  </div>
-                  <!-- end heading -->
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. 
-                  <br>
-                  <small>Date - Time</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Column 3 -->
-          <!-- column 4 start -->
-          <div class="column is-3">
+            <!-- column 1 end -->
+            <!-- column 2 start -->
+            <div class="column is-3">
               <div class="card">
                 <div class="card-image">
                   <figure class="image is-4by3">
@@ -463,17 +310,214 @@
                 </div>
               </div>
             </div>
-            <!-- column 4 end -->
-        </div>
-      </div>
-  </div>
-  <!-- 4 col card section end -->
+            <!-- column 2 end -->
+            <!-- column 3 start -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                    </div>
+                    <!-- heading -->
+                    <div class="media-content">
+                      <p class="title is-4">Project Name</p>
+                      <p class="subtitle is-6"><a>#javascript</a>
+                        <a>#css</a> <a>#responsive</a></p>
+                      
+                    </div>
+                    <!-- end heading -->
+                  </div>
               
-  </div> 
-  <!-- Portfolio end -->
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. 
+                    <br>
+                    <small>Date - Time</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Column 3 -->
+            <!-- column 4 start -->
+            <div class="column is-3">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-left">
+                      </div>
+                      <!-- heading -->
+                      <div class="media-content">
+                        <p class="title is-4">Project Name</p>
+                        <p class="subtitle is-6"><a>#javascript</a>
+                          <a>#css</a> <a>#responsive</a></p>
+                      </div>
+                      <!-- end heading -->
+                    </div>
+                
+                    <div class="content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris. 
+                      <br>
+                      <small>Date - Time</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- column 4 end -->
+          </div>
+        </div>
+    </div>
+    <!-- 4 col Section End -->
 
-  <script src = 'scripts/concatscripts.js'></script>
-  <!-- <script src = 'scripts/main.js'></script> -->
-  <script src = 'scripts/zenscroll-min.js'></script>
-  </body>
-  </html>
+    <!-- 4 col Section Start -->
+    <div class="section section-cards">
+        <div class="container">      
+          <div class="columns">
+            <!-- column 1 start -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                    </div>
+                    <!-- heading -->
+                    <div class="media-content">
+                      <p class="title is-4">Project Name</p>
+                      <p class="subtitle is-6"><a>#javascript</a>
+                        <a>#css</a> <a>#responsive</a></p>
+                    </div>
+                    <!-- end heading -->
+                  </div>
+              
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. 
+                    <br>
+                    <small>Date - Time</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- column 1 end -->
+            <!-- column 2 start -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                    </div>
+                    <!-- heading -->
+                    <div class="media-content">
+                      <p class="title is-4">Project Name</p>
+                      <p class="subtitle is-6"><a>#javascript</a>
+                        <a>#css</a> <a>#responsive</a></p>
+                    </div>
+                    <!-- end heading -->
+                  </div>
+              
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. 
+                    <br>
+                    <small>Date - Time</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- column 2 end -->
+            <!-- column 3 start -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                    </div>
+                    <!-- heading -->
+                    <div class="media-content">
+                      <p class="title is-4">Project Name</p>
+                      <p class="subtitle is-6"><a>#javascript</a>
+                        <a>#css</a> <a>#responsive</a></p>
+                      
+                    </div>
+                    <!-- end heading -->
+                  </div>
+              
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. 
+                    <br>
+                    <small>Date - Time</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Column 3 -->
+            <!-- column 4 start -->
+            <div class="column is-3">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-left">
+                      </div>
+                      <!-- heading -->
+                      <div class="media-content">
+                        <p class="title is-4">Project Name</p>
+                        <p class="subtitle is-6"><a>#javascript</a>
+                          <a>#css</a> <a>#responsive</a></p>
+                      </div>
+                      <!-- end heading -->
+                    </div>
+                
+                    <div class="content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris. 
+                      <br>
+                      <small>Date - Time</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- column 4 end -->
+          </div>
+        </div>
+    </div>
+    <!-- 4 col card section end -->
+                
+    </div> 
+    <!-- Portfolio end -->
+
+    <script src = 'scripts/concatscripts.js'></script>
+    <!-- <script src = 'scripts/main.js'></script> -->
+    <script src = 'scripts/zenscroll-min.js'></script>
+    </body>
+    </html>
