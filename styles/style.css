@@ -94,7 +94,7 @@ body {
 
 /* Portfolio Section */
     #portfolio {
-      height:100vh;
+      height:auto;
       }
     .card-hidden{
       display:none;
@@ -120,6 +120,8 @@ body {
       box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.25), 2px 8px 6px rgba(0, 0, 0, 0.35);
     }
   
+/* Footer */
+.footer-icon{margin:1em;}
 
 /* Landing Animations */
 
