@@ -61,8 +61,6 @@ body {
   }
 
 
-
-
 /* About Section Styles / Technical Skills  */
   #about {
     background-color: #ffffff;
@@ -98,6 +96,11 @@ body {
       }
     .card-hidden{
       display:none;
+    }
+
+    .project-tag>a:hover{
+      color:#93c54b;
+      cursor:default;
     }
 
     .section-cards {

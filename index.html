@@ -1,868 +1,1077 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kevin Web Dev PortFolio</title>
-    <link rel="icon" href="assets/webico.ico">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" id = 'theme' href="https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.5.0/sandstone/bulmaswatch.min.css">
-<!-- 
-    <script type="text/javascript" src="http://livejs.com/live.js"></script>  
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="vendor/lightbox.min.css"> -->
-    <link rel="stylesheet" href="styles/concatstyles.css">
+<html lang="en">
 
-  </head>
-  <body>
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kevin Web Dev PortFolio</title>
+  <link rel="icon" href="assets/webico.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" id='theme' href="https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.5.0/sandstone/bulmaswatch.min.css">
+
+  <script type="text/javascript" src="http://livejs.com/live.js"></script>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="vendor/lightbox.min.css">
+  <!-- <link rel="stylesheet" href="styles/concatstyles.css"> -->
+
+</head>
+
+<body>
+
 
   <nav class="nav">
     <div class="container">
       <div class="nav-left">
-        <a href = '#landing' class="nav-item nav-item-one is-tab fadeInLeft">Home</a>
-        <a href = '#about' class="nav-item nav-item-two is-tab fadeInLeft">About</a>
-        <a href = '#technicalSkills' class="nav-item nav-item-three is-tab fadeInLeft">Technical Skills</a>
-        <a href = '#portfolio' class="nav-item nav-item-three is-tab fadeInLeft">Portfolio</a>
+        <a href='#landing' class="nav-item nav-item-one is-tab fadeInLeft">Home</a>
+        <a href='#about' class="nav-item nav-item-two is-tab fadeInLeft">About</a>
+        <a href='#technicalSkills' class="nav-item nav-item-three is-tab fadeInLeft">Technical Skills</a>
+        <a href='#portfolio' class="nav-item nav-item-three is-tab fadeInLeft">Portfolio</a>
 
       </div>
       <div class="nav-right nav-menu">
-        <a href = 'http://bulma.io/documentation/layout/container/' class="nav-item is-tab">Resume Download</a>
+        <a href='http://bulma.io/documentation/layout/container/' class="nav-item is-tab">Resume Download</a>
       </div>
     </div>
   </nav>
 
-<!-- Landing Start -->
-<section class="section nav-section" id = "landing">
-  <section class="hero is-fullheight">
-    <div class="hero-body">
-      <div class="container has-text-centered" id='landing-txt-container'>
+  <!-- Landing Start -->
+  <section class="section nav-section" id="landing">
+    <section class="hero is-fullheight">
+      <div class="hero-body">
+        <div class="container has-text-centered" id='landing-txt-container'>
           <h1 class="title is-2">
-              <span class='backdrop landing-one fadeInLeft'>Front-End Web Developer</span>
-            </h1>
-        <h1 class="title is-1 landing-two fadeInLeft">
-              Kevin Coyle
-        </h1>
-        <h2 class="subtitle is-3 fadeInLeft landing-three" id = 'landing-Fade-Container'>
-         <span>I can</span>
-          <span class = 'foo1'><a class='fooLink' href = '#technicalSkills'>Create New Wordpress Websites</a></span>
-          <span class = 'foo2'><a class='fooLink' href = '#technicalSkills'>Build Responsive Landing Pages</a></span>
-          <span class = 'foo3'><a class='fooLink' href = '#technicalSkills'>Use The Latest Javascript and CSS Frameworks</a></span>
-          <span class = 'foo4'><a class='fooLink' href = '#technicalSkills'>Contribute to Your Dev Team</a></span>
-          <span class = 'foo5'><a class='fooLink' href = '#technicalSkills'>Perform Website Migrations</a></span>
-        </h2>
+            <span class='backdrop landing-one fadeInLeft'>Front-End Web Developer</span>
+          </h1>
+          <h1 class="title is-1 landing-two fadeInLeft">
+            Kevin Coyle
+          </h1>
+          <h2 class="subtitle is-3 fadeInLeft landing-three" id='landing-Fade-Container'>
+            <span>I can</span>
+            <span class='foo1'><a class='fooLink' href = '#technicalSkills'>Create New Wordpress Websites</a></span>
+            <span class='foo2'><a class='fooLink' href = '#technicalSkills'>Build Responsive Landing Pages</a></span>
+            <span class='foo3'><a class='fooLink' href = '#technicalSkills'>Use The Latest Javascript and CSS Frameworks</a></span>
+            <span class='foo4'><a class='fooLink' href = '#technicalSkills'>Contribute to Your Dev Team</a></span>
+            <span class='foo5'><a class='fooLink' href = '#technicalSkills'>Perform Website Migrations</a></span>
+          </h2>
+        </div>
       </div>
-    </div>
+    </section>
   </section>
-</section>
+  <!-- Landing End -->
+
+  <!-- About Start -->
+  <section class="section" id="about">
 
 
+    <div class="container">
 
 
+      <article class="message">
+        <h1 class="has-text-centered about-h1"> About </h1>
+        <div class="text-content">
+          At time of writing in 2017, I'm a 26 year old self taught Web Developer whose been using the Internet since the late 90s.
+          I've always thought the Internet was pretty awesome, but I especially like the practical application it brings
+          to everyone.
+        </div>
+        <div class="text-content">
+          The first web application I made and put on github for use is called the KF2calc which was made to help players to calculate
+          their damage in an online video game. Damage calculations weren't displayed anywhere in-game or online and you'd
+          have to look up formulas on the Internet and plug them into a calculator for each weapon. After doing it myself
+          a few times I thought that it'd be pretty useful to have an application that did this for me. So I went to building
+          the website.
+        </div>
+        <div class="text-content">
+          I launched the website last year and have implemented additional features after communicating with the userbase on social
+          media. Since then, I've monetized the website with Ad Sense and have daily usage confirmed by Google Analytics.
+          I have also launched my own <a href="http://kcwebdevoh.online/">Wordpress</a> website in order to pursue
+          freelance opportunities.
+          <!-- Throughout this project's lifetime I've tried to practice Agile and Waterfall software development methodologies. -->
+        </div>
+        <div class="text-content">
+          I'm really dedicated to mastering Javascript and working to be able to utilize it to its full potential. After I have mastered
+          Front-End Technologies, I want to branch out into Back-End languages like Python and PHP and work towards Full-Stack.
+          Eventually, I'd like to use this knowledge in entrepreneurial endeavors.
+        </div>
 
-
-<!-- Landing End -->
-
-<!-- About Start -->
-      <section class="section" id = "about">
-
-
-        <div class="container">
-
-          
-        <article class="message">
-            <h1 class="has-text-centered about-h1"> About </h1>
-          <div class="text-content">
-            At time of writing in 2017, I'm a 26 year old self taught Web Developer whose been using the Internet since the late 90s. I've always thought the Internet was pretty awesome, but I especially like the practical application it brings to everyone.
-          </div>
-          <div class="text-content">
-            The first web application I made and put on github for use is called the KF2calc which was made to help players to calculate their damage in an online video game. Damage calculations weren't displayed anywhere in-game or online and you'd have to look up formulas on the Internet and plug them into a calculator for each weapon. After doing it myself a few times I thought that it'd be pretty useful to have an application that did this for me. So I went to building the website.
-          </div>
-          <div class="text-content">
-            I launched the website last year and have implemented additional features after communicating with the userbase on social media. Since then, I've monetized the website with Ad Sense and have daily usage confirmed by Google Analytics. I have also launched my own <a href="http://kcwebdevoh.online/">Wordpress</a> website in order to pursue freelance opportunities.
-            <!-- Throughout this project's lifetime I've tried to practice Agile and Waterfall software development methodologies. -->
-          </div>
-          <div class="text-content">
-            I'm really dedicated to mastering Javascript and working to be able to utilize it to its full potential. After I have mastered Front-End Technologies, I want to branch out into Back-End languages like Python and PHP and work towards Full-Stack. Eventually, I'd like to use this knowledge in entrepreneurial endeavors.
-          </div>
-        
         <h1 class="has-text-centered about-h1" id='technicalSkills'> Technical Skills </h1>
-          <div class="columns">
-            <div class="column has-text-centered">
-              <h3 class = 'about-h3'>Primary Technology Skills</h3>  
-              <div class="text-content">
-                <strong>HTML5 - CSS3 - Javascript - JQuery - Bootstrap - React - Gulp </strong>
-              </div>
-
-              <div class="text-content">
-                  Primary Technology Skills represent the areas where I have the majority of my experience. 
-              </div>
-
+        <div class="columns">
+          <div class="column has-text-centered">
+            <h3 class='about-h3'>Primary Technology Skills</h3>
+            <div class="text-content">
+              <strong>HTML5 - CSS3 - Javascript - JQuery - Bootstrap - React - Gulp </strong>
             </div>
-            <div class="column has-text-centered">
-              <h3 class = 'about-h3'>Secondary Technology Skills</h3>
-              
-              <div class="text-content">
-                  <strong>PHP - Wordpress - MySQL - phpMyAdmin - Ubuntu  - Photoshop</strong>
-                 </div>
-              <div class="text-content">  
-                  Secondary Technology Skills are areas where I have general usage experience but with minimal depth.
-              </div>
 
+            <div class="text-content">
+              Primary Technology Skills represent the areas where I have the majority of my experience.
             </div>
+
           </div>
-          <div class="text-content italic">
-            * Skills not arranged in a particular order.
+          <div class="column has-text-centered">
+            <h3 class='about-h3'>Secondary Technology Skills</h3>
+
+            <div class="text-content">
+              <strong>PHP - Wordpress - MySQL - phpMyAdmin - Ubuntu  - Photoshop</strong>
+            </div>
+            <div class="text-content">
+              Secondary Technology Skills are areas where I have general usage experience but with minimal depth.
+            </div>
+
           </div>
+        </div>
+        <div class="text-content italic">
+          * Skills not arranged in a particular order.
+        </div>
 
 
       </article>
-      </div>
+    </div>
 
-    </section>
+  </section>
   <!-- About End -->
-    <section class="section" id="portfolio">
-      <!-- 4 Col Card Section Start -->
-      <div class="section section-cards nav-section">
-          <div class="container">
-            <div class="columns">
-              <!-- Column 1 Start -->
-              <div class="column is-3">
-                <!-- Front Card Start -->
-                <div class="card cardFlipIn">
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-                    <div class="content">
-                      Project Details
-  
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
+  <section class="section" id="portfolio">
+    <!-- New Section Start -->
+    <div class="container">
+      <div class="columns">
+        <!-- Column 1 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
                 </div>
-                <!-- Front Above this Point -->
-                <!-- Back Below this Point -->
-                <div class="card cardFlipInReverse card-hidden">
-                  <div class="card-image">
-                      <figure class="image is-4by3">
-                      <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-  
-                    <div class="content">
-                      Project Details
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Back Card End -->
-              </div>
-              <!-- Column 1 End -->
-              <!-- Column 2 Start -->
-              <div class="column is-3">
-                <!-- Front Card Start -->
-                <div class="card cardFlipIn">
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-                    <div class="content">
-                      Project Details
-  
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Front Above this Point -->
-                <!-- Back Below this Point -->
-                <div class="card cardFlipInReverse card-hidden">
-                  <div class="card-image">
-                      <figure class="image is-4by3">
-                      <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-  
-                    <div class="content">
-                      Project Details
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Back Card End -->
-              </div>
-              <!-- Column 2 End -->
-              <!-- Column 3 Start -->
-              <div class="column is-3">
-                <!-- Front Card Start -->
-                <div class="card cardFlipIn">
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-                    <div class="content">
-                      Project Details
-  
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Front Above this Point -->
-                <!-- Back Below this Point -->
-                <div class="card cardFlipInReverse card-hidden">
-                  <div class="card-image">
-                      <figure class="image is-4by3">
-                      <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-  
-                    <div class="content">
-                      Project Details
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Back Card End -->
-              </div>
-              <!-- Column 3 End-->
-              <!-- Column 4 Start -->
-              <div class="column is-3">
-                <!-- Front Card Start -->
-                <div class="card cardFlipIn">
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-                    <div class="content">
-                      Project Details
-  
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Front Above this Point -->
-                <!-- Back Below this Point -->
-                <div class="card cardFlipInReverse card-hidden">
-                  <div class="card-image">
-                      <figure class="image is-4by3">
-                      <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-  
-                    <div class="content">
-                      Project Details
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Back Card End -->
-              </div>
-              <!-- Column 4 End -->
-            </div>
-          </div>
-        </div>
-      <!-- 4 Col Card Section End -->
-      <!-- 4 Col Card Section Start -->
-      <div class="section section-cards nav-section">
-          <div class="container">
-            <div class="columns">
-              <!-- Column 1 Start -->
-              <div class="column is-3">
-                <!-- Front Card Start -->
-                <div class="card cardFlipIn">
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-                    <div class="content">
-                      Project Details
-  
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Front Above this Point -->
-                <!-- Back Below this Point -->
-                <div class="card cardFlipInReverse card-hidden">
-                  <div class="card-image">
-                      <figure class="image is-4by3">
-                      <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-  
-                    <div class="content">
-                      Project Details
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Back Card End -->
-              </div>
-              <!-- Column 1 End -->
-              <!-- Column 2 Start -->
-              <div class="column is-3">
-                <!-- Front Card Start -->
-                <div class="card cardFlipIn">
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-                    <div class="content">
-                      Project Details
-  
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Front Above this Point -->
-                <!-- Back Below this Point -->
-                <div class="card cardFlipInReverse card-hidden">
-                  <div class="card-image">
-                      <figure class="image is-4by3">
-                      <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-  
-                    <div class="content">
-                      Project Details
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Back Card End -->
-              </div>
-              <!-- Column 2 End -->
-              <!-- Column 3 Start -->
-              <div class="column is-3">
-                <!-- Front Card Start -->
-                <div class="card cardFlipIn">
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-                    <div class="content">
-                      Project Details
-  
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Front Above this Point -->
-                <!-- Back Below this Point -->
-                <div class="card cardFlipInReverse card-hidden">
-                  <div class="card-image">
-                      <figure class="image is-4by3">
-                      <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-  
-                    <div class="content">
-                      Project Details
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Back Card End -->
-              </div>
-              <!-- Column 3 End-->
-              <!-- Column 4 Start -->
-              <div class="column is-3">
-                <!-- Front Card Start -->
-                <div class="card cardFlipIn">
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-                    <div class="content">
-                      Project Details
-  
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Front Above this Point -->
-                <!-- Back Below this Point -->
-                <div class="card cardFlipInReverse card-hidden">
-                  <div class="card-image">
-                      <figure class="image is-4by3">
-                      <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-  
-                      <div class="media-content">
-                        <p class="title is-4">Project Name</p>
-                        <p class="subtitle is-6"><a>#placeholder</a>
-                          <a>#placeholder</a> <a>#placeholder</a></p>
-                      </div>
-                    </div>
-  
-                    <div class="content">
-                      Project Details
-  
-                    </div>
-                    <footer class="card-footer">
-                      <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
-                    </footer>
-                  </div>
-                </div>
-                <!-- Back Card End -->
-              </div>
-              <!-- Column 4 End -->
-            </div>
-          </div>
-        </div>
-      <!-- 4 Col Card Section End -->
-            <!-- 4 Col Card Section Start -->
-            <div class="section section-cards nav-section">
-                <div class="container">
-                  <div class="columns">
-                    <!-- Column 1 Start -->
-                    <div class="column is-3">
-                      <!-- Front Card Start -->
-                      <div class="card cardFlipIn">
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                            </div>
-        
-                            <div class="media-content">
-                              <p class="title is-4">Project Name</p>
-                              <p class="subtitle is-6"><a>#placeholder</a>
-                                <a>#placeholder</a> <a>#placeholder</a></p>
-                            </div>
-                          </div>
-                          <div class="content">
-                            Project Details
-        
-        
-                          </div>
-                          <footer class="card-footer">
-                            <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
-                          </footer>
-                        </div>
-                      </div>
-                      <!-- Front Above this Point -->
-                      <!-- Back Below this Point -->
-                      <div class="card cardFlipInReverse card-hidden">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                            <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                            </div>
-        
-                            <div class="media-content">
-                              <p class="title is-4">Project Name</p>
-                              <p class="subtitle is-6"><a>#placeholder</a>
-                                <a>#placeholder</a> <a>#placeholder</a></p>
-                            </div>
-                          </div>
-        
-                          <div class="content">
-                            Project Details
-        
-                          </div>
-                          <footer class="card-footer">
-                            <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
-                          </footer>
-                        </div>
-                      </div>
-                      <!-- Back Card End -->
-                    </div>
-                    <!-- Column 1 End -->
-                    <!-- Column 2 Start -->
-                    <div class="column is-3">
-                      <!-- Front Card Start -->
-                      <div class="card cardFlipIn">
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                            </div>
-        
-                            <div class="media-content">
-                              <p class="title is-4">Project Name</p>
-                              <p class="subtitle is-6"><a>#placeholder</a>
-                                <a>#placeholder</a> <a>#placeholder</a></p>
-                            </div>
-                          </div>
-                          <div class="content">
-                            Project Details
-        
-        
-                          </div>
-                          <footer class="card-footer">
-                            <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
-                          </footer>
-                        </div>
-                      </div>
-                      <!-- Front Above this Point -->
-                      <!-- Back Below this Point -->
-                      <div class="card cardFlipInReverse card-hidden">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                            <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                            </div>
-        
-                            <div class="media-content">
-                              <p class="title is-4">Project Name</p>
-                              <p class="subtitle is-6"><a>#placeholder</a>
-                                <a>#placeholder</a> <a>#placeholder</a></p>
-                            </div>
-                          </div>
-        
-                          <div class="content">
-                            Project Details
-        
-                          </div>
-                          <footer class="card-footer">
-                            <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
-                          </footer>
-                        </div>
-                      </div>
-                      <!-- Back Card End -->
-                    </div>
-                    <!-- Column 2 End -->
-                    <!-- Column 3 Start -->
-                    <div class="column is-3">
-                      <!-- Front Card Start -->
-                      <div class="card cardFlipIn">
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                            </div>
-        
-                            <div class="media-content">
-                              <p class="title is-4">Project Name</p>
-                              <p class="subtitle is-6"><a>#placeholder</a>
-                                <a>#placeholder</a> <a>#placeholder</a></p>
-                            </div>
-                          </div>
-                          <div class="content">
-                            Project Details
-        
-        
-                          </div>
-                          <footer class="card-footer">
-                            <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
-                          </footer>
-                        </div>
-                      </div>
-                      <!-- Front Above this Point -->
-                      <!-- Back Below this Point -->
-                      <div class="card cardFlipInReverse card-hidden">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                            <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                            </div>
-        
-                            <div class="media-content">
-                              <p class="title is-4">Project Name</p>
-                              <p class="subtitle is-6"><a>#placeholder</a>
-                                <a>#placeholder</a> <a>#placeholder</a></p>
-                            </div>
-                          </div>
-        
-                          <div class="content">
-                            Project Details
-        
-                          </div>
-                          <footer class="card-footer">
-                            <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
-                          </footer>
-                        </div>
-                      </div>
-                      <!-- Back Card End -->
-                    </div>
-                    <!-- Column 3 End-->
-                    <!-- Column 4 Start -->
-                    <div class="column is-3">
-                      <!-- Front Card Start -->
-                      <div class="card cardFlipIn">
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                            </div>
-        
-                            <div class="media-content">
-                              <p class="title is-4">Project Name</p>
-                              <p class="subtitle is-6"><a>#placeholder</a>
-                                <a>#placeholder</a> <a>#placeholder</a></p>
-                            </div>
-                          </div>
-                          <div class="content">
-                            Project Details
-        
-        
-                          </div>
-                          <footer class="card-footer">
-                            <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
-                          </footer>
-                        </div>
-                      </div>
-                      <!-- Front Above this Point -->
-                      <!-- Back Below this Point -->
-                      <div class="card cardFlipInReverse card-hidden">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                            <img src="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/b_vf9s2o.png" alt="Image">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                            </div>
-        
-                            <div class="media-content">
-                              <p class="title is-4">Project Name</p>
-                              <p class="subtitle is-6"><a>#placeholder</a>
-                                <a>#placeholder</a> <a>#placeholder</a></p>
-                            </div>
-                          </div>
-        
-                          <div class="content">
-                            Project Details
-        
-                          </div>
-                          <footer class="card-footer">
-                            <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
-                          </footer>
-                        </div>
-                      </div>
-                      <!-- Back Card End -->
-                    </div>
-                    <!-- Column 4 End -->
-                  </div>
-                </div>
-              </div>
-            <!-- 4 Col Card Section End -->
 
-  </section> 
-    <!-- Portfolio End -->
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-          <div class="content has-text-centered">
-            <p>
-              Created By Kevin Coyle  
-            </p>
-            <p>
-              <a class="icon footer-icon" href="https://github.com/Tor020">
+                <div class="media-content">
+                  <p class="title is-4">KF2Calc</p>
+                  <p class="subtitle is-6 project-tag"><a>#Jquery</a>
+                    <a>#Bootstrap</a> <a>#Web-Application</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Web Application for a Video Game. Calculates player damage.
+
+
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='Kf2calc' data-title='<a href="https://tor020.github.io/Killing-Floor-2-Calculator/">Kf2calc</a>' href="http://res.cloudinary.com/tor020/image/upload/v1503378889/PortfolioVer1%20Full/home_exd0jj.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1503378915/PortfolioVer1%20Thmb/home_up0keu.png"
+                  alt="">
+                <a data-lightbox='Kf2calc' data-title='<a href="https://tor020.github.io/Killing-Floor-2-Calculator/">Kf2calc</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378875/PortfolioVer1%20Full/b_qeep7j.png"></a>
+                </a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Kf2Calc</p>
+                  <p class="subtitle is-6 project-tag"><a>#Jquery</a>
+                    <a>#Bootstrap</a> <a>#WebApplication</a> <a>#Javascript</a><a></a></p>
+                </div>
+              </div>
+              <div class="content">
+                Calculates player's in-game damage for them for each class with each of their individual weapons.Damage calculations use
+                values and formulas listed on Google document for the game. It also displays enemy's in-game health and resistances
+                on mouseover.
+              </div>
+              <div class="content">Has been updated overtime after receiving feedback from users. Feedback <a href="https://www.reddit.com/r/killingfloor/comments/5u6dy0/im_making_a_web_application_for_killing_floor_2_a/">1</a>                & <a href="https://www.reddit.com/r/killingfloor/comments/5y6eoe/killing_floor_2_damage_calculator/">2</a>                </div>
+              <div class="content"><a href="https://tor020.github.io/Killing-Floor-2-Calculator/">Link to Site</a>
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <!-- Column 1 End -->
+        <!-- Column 2 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">To Do List</p>
+                  <p class="subtitle is-6 project-tag"><a>#Javascript</a>
+                    <a>#MVC Architecture</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Web App to demonstrate proof of Model View Controller Architectural understanding
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='To-Do-List' data-title='<a href="https://tor020.github.io/TodoWebApp/">To Do List</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378906/PortfolioVer1%20Full/Todo6_n6vsac.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1503378906/PortfolioVer1%20Full/Todo6_n6vsac.png"
+                  alt=""></a>
+                <a data-lightbox='To-Do-List' data-title='<a href="https://tor020.github.io/TodoWebApp/">To Do List Code View</a>' href="https://res.cloudinary.com/tor020/image/upload/v1504050534/PortfolioVer1%20Full/todo_code.png"></a>
+                <a data-lightbox='To-Do-List' data-title='<a href="https://tor020.github.io/TodoWebApp/">To Do List Code View 1</a>' href="https://res.cloudinary.com/tor020/image/upload/v1504050540/PortfolioVer1%20Full/todo_code_pt1.png"></a>
+                <a data-lightbox='To-Do-List' data-title='<a href="https://tor020.github.io/TodoWebApp/">To Do List Code View 2</a>' href="https://res.cloudinary.com/tor020/image/upload/v1504050544/PortfolioVer1%20Full/todocode_pt2.png"></a>
+                <a data-lightbox='To-Do-List' data-title='<a href="https://tor020.github.io/TodoWebApp/">To Do List Code View 3</a>' href="https://res.cloudinary.com/tor020/image/upload/v1504050548/PortfolioVer1%20Full/todocode_pt3.png"></a>
+
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">To Do List</p>
+                  <p class="subtitle is-6 project-tag"><a>#Javascript</a>
+                    <a>MVCArchitecture</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                The goal of this project was to demonstrate that I was familiar and able to create modular code that interacts with other
+                sections of code in order to achieve its purpose.
+              </div>
+
+              <div class="content"> <strong>Todos object</strong> represents the model. <br> <strong>Handlers object</strong> - Controller <br>                <strong>Views object</strong> - View
+              </div>
+              <div class="content"><a href="https://res.cloudinary.com/tor020/image/upload/v1503378906/PortfolioVer1%20Full/Todo6_n6vsac.png">Live Website</a>                </div>
+
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <!-- Column 2 End -->
+        <!-- Column 3 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Web Development & Wordpress Solutions</p>
+                  <p class="subtitle is-6 project-tag"><a>#Wordpress</a>
+                    <a>#PhP</a> <a>#MySQL</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Wordpress Website built locally and migrated to a live server to promote freelance services.
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+
+              <figure class="image is-4by3">
+                <a data-lightbox='Wordpress Solutions' data-title='<a href="http://www.kcwebdevoh.online">Web Development & Wordpress Solutions</a>'
+                  href="https://res.cloudinary.com/tor020/image/upload/v1504058445/PortfolioVer1%20Full/wphome.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1504058444/PortfolioVer1%20Thmb/wphome.thmb.png"
+                  alt="">
+                <a data-lightbox='Wordpress Solutions' data-title='<a href="http://www.kcwebdevoh.online/home/front-end-vs-back-end-vs-fullstack/">Web Development & Wordpress Solutions</a>'
+                  href="https://res.cloudinary.com/tor020/image/upload/v1504058439/PortfolioVer1%20Full/wp-article.png"></a>
+                </a>
+              </figure>
+
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Web Development & Wordpress Solutions</p>
+                  <p class="subtitle is-6 project-tag"><a>#Wordpress</a>
+                    <a>#PHP</a> <a>#MySQL</a> <a>#phpMyAdmin</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                I built this website to advertise freelance Wordpress and Web Development Services. The landing page uses the Hestia theme,
+                and the article page was made with a plugin called <a href="https://www.wpblockade.com/">WPblockade</a>.
+                <br> <a href="kcwebdevoh.online">Live Website</a>
+              </div>
+
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <!-- Column 3 End-->
+      </div>
+    </div>
+    <!-- New Section Start -->
+    <div class="container">
+      <div class="columns">
+        <!-- Column 1 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Pong Replica</p>
+                  <p class="subtitle is-6 project-tag"><a>#Javascript</a>
+                    <a>#Game</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Project Details
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='Pong' data-title='<a href="https://tor020.github.io/Pong/">Pong</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378893/PortfolioVer1%20Full/pong5_qi2xwv.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1503378916/PortfolioVer1%20Thmb/pong5_kaxvjx.png"
+                  alt="Pong">
+                <a data-lightbox='Pong' data-title='<a href="https://tor020.github.io/Pong/">Pong</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378892/PortfolioVer1%20Full/pong1_fe669s.png"></a>
+                </a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Pong Replica</p>
+                  <p class="subtitle is-6 project-tag"><a>#Javascript</a>
+                    <a>#Game</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Project Details
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <!-- Column 1 End -->
+        <!-- Column 2 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Chart.js Demo</p>
+                  <p class="subtitle is-6 project-tag"><a>Framework</a>
+                    <a>#Javascript</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Javascript framework demo
+
+
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='ChartJS Demo' data-title='<a href="https://tor020.github.io/chartjs/">Chart.js Demo</a>' href="https://res.cloudinary.com/tor020/image/upload/v1504083019/PortfolioVer1%20Full/screencapture-tor020-github-io-chartjs-1504082822889.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1504083013/PortfolioVer1%20Thmb/screencapture-tor020-github-io-chartjs-1504082822889.thmb.png"
+                  alt="Chartjs">
+                </a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Project Name</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                Project Details
+
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <!-- Column 2 End -->
+        <!-- Column 3 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Common Resources Homepage</p>
+                  <p class="subtitle is-6 project-tag"><a>#HTML</a>
+                    <a>#CSS</a> <a>#Javascript</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Project Details
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='CRH' data-title='<a href="https://tor020.github.io/commonresource/">Common Resources Page</a>' href="https://res.cloudinary.com/tor020/image/upload/v1504085031/screencapture-tor020-github-io-commonresource-1504084899889_xu5ia2.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1504085119/screencapture-tor020-github-io-commonresource-1504084899889.thmb_mfdrm0.png"
+                  alt="">
+                </a>
+                <a data-lightbox='CRH' data-title='<a href="https://tor020.github.io/commonresource/">Project-Title</a>' href="https://res.cloudinary.com/tor020/image/upload/v1504085029/screencapture-tor020-github-io-commonresource-1504084892842_k8lj0h.png"></a>
+                <a data-lightbox='CRH' data-title='<a href="https://tor020.github.io/commonresource/">Project-Title</a>' href="https://res.cloudinary.com/tor020/image/upload/v1504085031/screencapture-tor020-github-io-commonresource-1504084911310_x32zho.png"></a>
+                </a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Common Resources Homepage</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                Project Details
+
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <!-- Column 3 End-->
+      </div>
+    </div>
+    <!-- New Section Start -->
+    <div class="container">
+      <div class="columns">
+        <!-- Column 1 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">JSON Fetch Demo</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Project Details
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='JSONfetch' data-title='<a href="https://tor020.github.io/jsontutorial/">JSON Fetch Demo</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378890/PortfolioVer1%20Full/json3_c6y4hz.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1503378915/PortfolioVer1%20Thmb/json3_r4cdch.png"
+                  alt=""> </a>
+                <a data-lightbox="JSONfetch" data-title='<a href="https://tor020.github.io/jsontutorial/">JSON Fetch Demo</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378889/PortfolioVer1%20Full/json1_wvgz0b.png"></a>
+
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Project Name</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Project Details
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <!-- Column 1 End -->
+        <!-- Column 2 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Flex Pane Layout</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Project Details
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='flexPane' data-title='<a href="https://tor020.github.io/flexframelayout/">Flex Pane Layout</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378908/PortfolioVer1%20Thmb/flexLay2_ozmsnt.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1503378914/PortfolioVer1%20Thmb/flexLay2_ptxg8a.png"
+                  alt=""></a>
+                <a data-lightbox='flexPane' data-title='<a href="https://tor020.github.io/flexframelayout/">Project-Title</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378915/PortfolioVer1%20Thmb/flexLay1_opv48f.png"></a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Flex Pane Layout</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Project Details
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <!-- Column 2 End -->
+        <!-- Column 3 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Canvas Color Demo</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Project Details
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='canvasColor' data-title='<a href="https://tor020.github.io/canvascolor/">Coloring Canvas Demo</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378873/PortfolioVer1%20Full/canvas2_ku5zig.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1503378910/PortfolioVer1%20Thmb/canvas2_i4t5kr.png"
+                  alt=""></a>
+                <a data-lightbox='canvasColor' data-title='<a href="https://tor020.github.io/canvascolor/">Coloring Canvas Demo</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378872/PortfolioVer1%20Full/canvas_tjuxko.png"></a>
+
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Canvas Color Demo</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                Project Details
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <!-- Column 3 End-->
+      </div>
+    </div>
+    <!-- New Section Start -->
+    <div class="container">
+      <div class="columns">
+        <!-- Column 1 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Project Archives</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Outdated Showcase
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='projectArchives' data-title='<a href="https://tor020.github.io/Online_Archiv/">Old Project Archives</a>'
+                  href="https://res.cloudinary.com/tor020/image/upload/v1503378896/PortfolioVer1%20Full/projectarch1_vrwugi.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1503378916/PortfolioVer1%20Thmb/projectarch1_llgeyz.png"
+                  alt=""></a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Project Name</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                Project Details
+
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+          <!-- Back Card End -->
+        </div>
+        <!-- Column 1 End -->
+        <!-- Column 2 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Matrix Number Fall</p>
+                  <p class="subtitle is-6 project-tag"><a>#HTML5Canvas</a>
+                    <a>#Javascript</a> <a>#CSS</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Creating a number fall effect with Javascript
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='Matrix' data-title='<a href="https://tor020.github.io/Matrix-Modified/">Matrix Modified</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378899/PortfolioVer1%20Full/Matrix_ekvbzj.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1503378916/PortfolioVer1%20Thmb/Matrix_yctjz1.png"
+                  alt=""></a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Matrix Modified</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Project Details
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+          <!-- Back Card End -->
+        </div>
+        <!-- Column 2 End -->
+        <!-- Column 3 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">CSS3 Clock</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                A clock made with CSS3 elements that adjusts to your time
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='CSS3clock' data-title='<a href="https://tor020.github.io/verbose-octo-lamp/">CSS3 Clock</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378874/PortfolioVer1%20Full/clk_o92gjr.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1503378910/PortfolioVer1%20Thmb/clk_xujakz.png" alt=""></a>
+                <a data-lightbox='CSS3clock' data-title='<a href="https://tor020.github.io/verbose-octo-lamp/">CSS3 Clock</a>' href="https://res.cloudinary.com/tor020/image/upload/v1503378874/PortfolioVer1%20Full/clk2_uq21z1.png"></a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Project Name</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                Project Details
+
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+          <!-- Back Card End -->
+        </div>
+        <!-- Column 3 End-->
+      </div>
+    </div>
+    <!-- New Section Start -->
+    <div class="container">
+      <div class="columns">
+        <!-- Column 1 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Canvas Layout</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                A flex CSS layout with an HTML5 Canvas in the background
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='canvasLayout' data-title='<a href="https://tor020.github.io/Sandt/">Canvas Layout</a>' href="https://res.cloudinary.com/tor020/image/upload/v1504130038/PortfolioVer1%20Full/screencapture-tor020-github-io-Sandt-1504129665265_s8sr1o.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1504130036/PortfolioVer1%20Thmb/screencapture-tor020-github-io-Sandt-1504129665265.thmb_o8r5ny.png" alt=""></a>
+                <a data-lightbox='canvasLayout' data-title='<a href="https://tor020.github.io/Sandt/">Canvas Layout</a>' href="https://res.cloudinary.com/tor020/image/upload/v1504130037/PortfolioVer1%20Full/screencapture-tor020-github-io-Sandt-1504129671584_mcxoao.png"></a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Canvas Layout</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Project Details
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+          <!-- Back Card End -->
+        </div>
+        <!-- Column 1 End -->
+        <!-- Column 2 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">BulmaCSS Theme Tester & Texture Tile</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Two Different Texture and Theme Testing Websites
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='LinkedTitle' data-title='<a href="">Texture Tester</a>' href="https://res.cloudinary.com/tor020/image/upload/v1504130942/BulmaThemeBP_mt6ahs.png">
+                <img class=Thumbnail src="https://res.cloudinary.com/tor020/image/upload/v1504130942/BulmaThemeBP.thmb_ynfr9m.png" alt=""></a>
+                <a data-lightbox='LinkedTitle' data-title='<a href="">Texture Tester</a>' href=""></a>
+
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Project Name</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                Project Details
+
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+          <!-- Back Card End -->
+        </div>
+        <!-- Column 2 End -->
+        <!-- Column 3 Start -->
+        <div class="column is-4">
+          <!-- Front Card Start -->
+          <div class="card cardFlipIn">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Project Name</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Project Details
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-right"><i class="fa fa-share" aria-hidden="true"></i></a>
+              </footer>
+            </div>
+          </div>
+          <!-- Front Above this Point -->
+          <!-- Back Below this Point -->
+          <div class="card cardFlipInReverse card-hidden">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <a data-lightbox='LinkedTitle' data-title='<a href="">Project-Title</a>' href="IMGURL">
+                <img class=Thumbnail src="" alt=""></a>
+                <a data-lightbox='LinkedTitle' data-title='<a href="">Project-Title</a>' href="IMGURL"></a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                </div>
+
+                <div class="media-content">
+                  <p class="title is-4">Project Name</p>
+                  <p class="subtitle is-6 project-tag"><a>#placeholder</a>
+                    <a>#placeholder</a> <a>#placeholder</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                Project Details
+
+              </div>
+              <footer class="card-footer">
+                <a class="footer-flip card-footer-item footer-left"><i class="fa fa-share fa-flip-horizontal" aria-hidden="true"></i></a>
+                <div class="italic">click the thumbnail to view the gallery</div>
+              </footer>
+            </div>
+          </div>
+          <!-- Back Card End -->
+        </div>
+        <!-- Column 3 End-->
+      </div>
+    </div>
+
+  </section>
+  <!-- Portfolio End -->
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          Created By Kevin Coyle
+        </p>
+        <p>
+          <a class="icon footer-icon" href="https://github.com/Tor020">
               <i class="fa footer-ico fa-github" aria-hidden="true"></i>
               </a>
-              <a class="icon footer-icon" href="https://www.linkedin.com/in/kevin-coyle-webdev">
+          <a class="icon footer-icon" href="https://www.linkedin.com/in/kevin-coyle-webdev">
               <i class="fa footer-ico fa-linkedin-square" aria-hidden="true"></i>
               </a>
-              <a class="icon footer-icon" href="https://twitter.com/Tor_kcWebDev">
+          <a class="icon footer-icon" href="https://twitter.com/Tor_kcWebDev">
               <i class="fa footer-ico fa-twitter-square" aria-hidden="true"></i>
               </a>
-              <a class="icon footer-icon" href="http://www.kcwebdevoh.online/">
+          <a class="icon footer-icon" href="http://www.kcwebdevoh.online/">
               <i class="fa footer-ico fa-wordpress" aria-hidden="true"></i>
               </a>
-            </p>
-          </div>
-        </div>
-      </footer>
-      <!-- Footer End -->
-    <script src= "https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src = 'scripts/concat.js'></script>
-    <!-- <script src = 'scripts/main.js'></script> -->
-    <!-- <script src = 'scripts/zenscroll-min.js'></script> -->
-    <!-- <script src= 'vendor/lightbox.min.js'></script> -->
-    </body>
-    </html>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src='scripts/concat.js'></script>
+  <!-- <script src = 'scripts/main.js'></script> -->
+  <!-- <script src = 'scripts/zenscroll-min.js'></script> -->
+  <!-- <script src= 'vendor/lightbox.min.js'></script> -->
+</body>
+
+</html>
