@@ -1,0 +1,3 @@
+<a data-lightbox='LinkedTitle' data-title='<a href="">Project-Title</a>' href="IMGURL">
+<img class=Thumbnail src="" alt = ""></a>
+<a data-lightbox='LinkedTitle' data-title='<a href="">Project-Title</a>' href="IMGURL"></a>

@@ -1,0 +1,502 @@
+body {
+  font-size: 16px;
+  /* background-color:#CCCCCC; */
+}
+.title,
+.subtitle {
+  color: inherit;
+}
+/* Navigation */
+  .navbar-brand>.navbar-link.is-active,
+  .navbar-brand>.navbar-link:hover,
+  .navbar-brand>a.navbar-item.is-active,
+  .navbar-brand>a.navbar-item:hover,
+  .nav-item.is-tab:hover,
+  .nav-item a:not(.button).is-tab:hover, a.nav-item:not(.button).is-tab:hover {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+  }
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .nav-section
+  /* TO create space for fixed nav */
+  {
+    margin-top: 45.5px;
+  }
+  /* Navigation End */
+
+  .nav-wrapper {
+  height: 5rem;
+}
+/* Landing Styles */
+  #landing {
+    z-index:1;
+    color: #ffffff;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100vh;
+    background-image: url(https://res.cloudinary.com/tor020/image/upload/v1503265015/Wordpress/network-2402637_uwrcna.jpg);
+    background-size: cover;
+  }
+  .backdrop {
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    box-shadow: 2px 10px 20px 3px rgba(255, 255, 255, 0.2);
+  }
+
+
+  #landing-txt-container {
+    color: #ffffff;
+  }
+
+
+/* About Section Styles / Technical Skills  */
+  #about {
+    background-color: #ffffff;
+    height: auto;
+    /* margin:0 2em 0 2em;
+    box-shadow:-3px 0px 0px rgba(0,0,0,0.35) */
+  }
+
+  article.message{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.19), 0px 4px 6px rgba(0, 0, 0, 0.30);
+    font-size:16px;
+    padding:2em;
+  }
+
+  div.text-content{
+    margin:3em;
+  }
+
+  .about-h1{
+    font-size:3rem;
+  }
+  .about-h3{
+    font-size:2.0rem;
+  }
+  .italic{
+  font-style: italic;
+  font-size:1rem;
+  }
+
+/* Portfolio Section */
+    #portfolio {
+      height:auto;
+      }
+    .card-hidden{
+      display:none;
+    }
+
+    .project-tag>a:hover{
+      color:#93c54b;
+      cursor:default;
+    }
+
+    .section-cards {
+      padding-top: 1.5em;
+      padding-bottom: 1.5em;
+    }
+    .footer-right{
+      justify-content:flex-end;
+    }
+    .footer-left{
+      justify-content:flex-start;
+    }
+    
+    .card {
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.19), 0px 4px 6px rgba(0, 0, 0, 0.30);
+      border-radius: 2px;
+      transition: .5s all;
+    }
+    .card:hover {
+      box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.25), 2px 8px 6px rgba(0, 0, 0, 0.35);
+    }
+  
+/* Footer */
+.footer-icon{margin:1em;}
+
+.footer-ico{
+  font-size:24px !important;
+}
+
+/* Landing Animations */
+
+    .nav-item-one, .landing-one{
+      animation-delay: .2s;
+    }
+
+    .nav-item-two, .landing-two {
+      animation-delay: 0.4s;
+    }
+
+    .nav-item-three, .landing-three {
+      animation-delay: 0.7s;
+    }
+
+    /* Keyframes  */
+
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+      }
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+      }
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+    .fadeInRight {
+      animation-name: fadeInRight;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+
+/* Landing Media Queries */
+
+    @media screen and (max-width: 694px) {
+      .hero-body,
+      .section {
+        padding: 0
+      }
+      .backdrop { 
+        box-shadow: none;
+        background-color:transparent;
+        padding-bottom: 0em;
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-top: 0em;
+      }
+    }
+
+/* Portfolio Animations */
+
+
+/* Portfolio keyframes */
+
+    @keyframes cardFlipIn {
+      from {
+        transform: perspective(400px) rotate3d(0, 1, 0, 120deg);
+        animation-timing-function: ease-in;
+        opacity: 0;
+      }
+    
+      40% {
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        animation-timing-function: ease-in;
+      }
+    
+      60% {
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        
+      }
+    
+      80% {
+        transform: perspective(400px) rotate3d(0, 1, 0, 5deg);
+        opacity: 1;
+      }
+    
+      to {
+        transform: perspective(400px);
+      }
+    }
+    
+    .cardFlipIn {
+      -webkit-backface-visibility: visible !important;
+      backface-visibility: visible !important;
+      animation-name: cardFlipIn;
+      animation-duration: 800ms;
+      animation-fill-mode: both;
+    }
+
+    @keyframes cardFlipInReverse {
+      from {
+        transform: perspective(400px) rotate3d(0, 1, 0, -120deg);
+        animation-timing-function: ease-in;
+        opacity: 0;
+      }
+    
+      40% {
+        transform: perspective(400px) rotate3d(0, 1, 0, 20deg);
+        animation-timing-function: ease-in;
+      }
+    
+      60% {
+        transform: perspective(400px) rotate3d(0, 1, 0, -10deg);
+       
+      }
+    
+      80% {
+        opacity: 1;
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+      }
+    
+      to {
+        transform: perspective(400px);
+      }
+    }
+    
+    .cardFlipInReverse {
+      -webkit-backface-visibility: visible !important;
+      backface-visibility: visible !important;
+      animation-name: cardFlipInReverse;
+      animation-duration: 800ms;
+      animation-fill-mode: both;
+    }
+    
+/*Slider Test */
+
+.base {
+  top: 100%
+}
+
+.fooLink:hover {
+  color: #95bf74
+}
+
+.foo1,
+.foo2,
+.foo3,
+.foo4,
+.foo5 {
+  opacity: 0;
+  position: absolute;
+  display: block;
+  width: 60%;
+  top: 100%;
+  animation-duration: 25s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite
+}
+
+.foo1 {
+  animation-name: passone;
+  opacity: 1;
+  left: 20%
+}
+
+.foo2 {
+  animation-name: passtwo
+}
+
+.foo3 {
+  animation-name: passthree
+}
+
+.foo4 {
+  animation-name: passfour
+}
+
+.foo5 {
+  animation-name: passfive
+}
+
+@keyframes passone {
+  0% {
+    left: 20%
+  }
+  4% {
+    left: 20%
+  }
+  16% {
+    left: 20%;
+    opacity: 1;
+    z-index: 0
+  }
+  20% {
+    left: 50%;
+    opacity: 0;
+    z-index: 0
+  }
+  21% {
+    left: -50%;
+    opacity: 0;
+    z-index: -1
+  }
+  92% {
+    left: -50%;
+    opacity: 0;
+    z-index: 0
+  }
+  96% {
+    left: -10%;
+    opacity: 0
+  }
+  100% {
+    left: 20%;
+    opacity: 1
+  }
+}
+
+@keyframes passtwo {
+  0% {
+    left: -50%;
+    opacity: 0
+  }
+  16% {
+    left: -10%;
+    opacity: 0
+  }
+  20% {
+    left: 20%;
+    opacity: 1
+  }
+  24% {
+    left: 20%;
+    opacity: 1
+  }
+  36% {
+    left: 20%;
+    opacity: 1;
+    z-index: 0
+  }
+  40% {
+    left: 50%;
+    opacity: 0;
+    z-index: 0
+  }
+  41% {
+    left: -50%;
+    opacity: 0;
+    z-index: -1
+  }
+  100% {
+    left: -50%;
+    opacity: 0;
+    z-index: -1
+  }
+}
+
+@keyframes passthree {
+  0% {
+    left: -50%;
+    opacity: 0
+  }
+  36% {
+    left: -10%;
+    opacity: 0
+  }
+  40% {
+    left: 20%;
+    opacity: 1
+  }
+  44% {
+    left: 20%;
+    opacity: 1
+  }
+  56% {
+    left: 20%;
+    opacity: 1
+  }
+  60% {
+    left: 50%;
+    opacity: 0;
+    z-index: 0
+  }
+  61% {
+    left: -50%;
+    opacity: 0;
+    z-index: -1
+  }
+  100% {
+    left: -50%;
+    opacity: 0;
+    z-index: -1
+  }
+}
+
+@keyframes passfour {
+  0% {
+    left: -50%;
+    opacity: 0
+  }
+  56% {
+    left: -10%;
+    opacity: 0
+  }
+  60% {
+    left: 20%;
+    opacity: 1
+  }
+  64% {
+    left: 20%;
+    opacity: 1
+  }
+  76% {
+    left: 20%;
+    opacity: 1;
+    z-index: 0
+  }
+  80% {
+    left: 50%;
+    opacity: 0;
+    z-index: 0
+  }
+  81% {
+    left: -50%;
+    opacity: 0;
+    z-index: -1
+  }
+  100% {
+    left: -50%;
+    opacity: 0;
+    z-index: -1
+  }
+}
+
+@keyframes passfive {
+  0% {
+    left: -50%;
+    opacity: 0
+  }
+  76% {
+    left: -10%;
+    opacity: 0
+  }
+  80% {
+    left: 20%;
+    opacity: 1
+  }
+  84% {
+    left: 20%;
+    opacity: 1
+  }
+  96% {
+    left: 20%;
+    opacity: 1;
+    z-index: 0
+  }
+  100% {
+    left: 50%;
+    opacity: 0;
+    z-index: 0
+  }
+}
